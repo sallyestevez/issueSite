@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+a, a:visited, a:active{
+  font-weight: bold;
+  color: #B5838D;
+}
+
+.mainContainer {
+  background-image: url('https://therealdeal.com/wp-content/uploads/2018/01/Neighborhoods-by-Jaye-Kang.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.navMenu {
+  background-color: #3A2E39;
+  overflow: hidden;
+  position: relative;
+}
+
+.navMenu a {
+  float: left;
+  color: #E5989B;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.navMenu a:hover {
+  color: #FFB4A2
+}
+
+.titleSection {
+  height: 300px;
+  color: #1e555c;
+  font-weight: bold;
+  padding: 50px;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.contentContainer{
+  padding: 50px;
+  background-color: #FFCDB2;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.twoContainers {
+  width: 100%;
+}
+
+.definition1, .image1 {
+  color: #392D38;
+  width: 49%;
+  display: inline-block;
+  border: 4px double #392D38;
+}
+
+.definition1 {
+  margin: 0px;
+  padding: 50px;
+  background-color: #E5989B;
+}
+
+.image1 {
+  padding: 50px;
+  display: inline-block;
+  text-align: center;
+  background-color: #B5838D;
+}
+
+.image {
+  width: 75%;
+}
+
+.definition2 {
+  margin: 5px;
+  width: 100%;
+  padding: 50px;
+  display: inline-block;
+  background-color: #7EA4B4;
+  border: 4px double #1E555C;
+  text-align: center;
+}
+
+ul, li, p {
+  font-family: 'Open Sans', sans-serif;
+}
+.pointTitle {
+  text-decoration: underline;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.content {
+  background-color: #6D6875;
+}
+.consider, .historicConditions, .disinvestmentInvestment, .impacts {
+  width: 100%;
+  padding: 50px;
+  color: #1E555C;
+}
+
+.considerText, .historicConditionsList, .disinvestmentInvestmentList, .impactsList,
+ .considerImage, .historicConditionsImage, .disinvestmentInvestmentImage, .impactsImage {
+  margin: 20px;
+  padding: 20px;
+  width: 45%;
+  display: inline-block;
+  border: 4px double #1E555C;
+}
+
+.considerText, .historicConditionsList, .disinvestmentInvestmentList, .impactsList {
+  background-color: #FFB4A2;
+}
+
+.considerImage, .historicConditionsImage, .disinvestmentInvestmentImage, .impactsImage {
+  background-color: #B5838D;
+  margin: 10px;
+  text-align: center;
+}
+
+.imageConsider {
+  width: 60%;
+}
+
+.redlining {
+  width: 80%;
+}
+
+.townhomes {
+  width: 100%;
+}
+
+.urban {
+  width: 65%
+}
+
+.containers {
+  padding: 25px;
+  background-color: #ffb4a2;
+  color: #6D6875;
+}
+
+.containers a {
+  text-decoration: none;
+}
+
+.topContainer {
+  text-align: center;
+  background-color:
+}
+
+.bottomContainer {
+  text-align: center;
+}
